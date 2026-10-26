@@ -1,6 +1,6 @@
 # mick-az.github.io
 
-Miyuki Aizawa の個人ポートフォリオサイト。ビルド無しの静的 HTML で、GitHub Pages から配信する。
+mick-az の個人ポートフォリオサイト。ビルド無しの静的 HTML で、GitHub Pages から配信する。
 
 - 公開 URL: https://mick-az.github.io/
 - 構成: `index.html` と `style.css` の 2 ファイル。`.nojekyll` は Jekyll の処理を止めるために置いている。
