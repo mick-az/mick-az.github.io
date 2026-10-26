@@ -176,6 +176,7 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem 4rem; }
 }
 .work dt { font-size: 0.82rem; letter-spacing: 0.1em; color: var(--ink-muted); }
 .work dd { margin: 0; }
+.work dd b { display: block; font-weight: 700; }
 
 /* Footer */
 .site-footer {
