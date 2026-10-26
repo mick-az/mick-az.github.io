@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Miyuki Aizawa</title>
-  <meta name="description" content="Miyuki Aizawa のポートフォリオ。映像、決済、配信、検索、採用のサービスをつくってきたエンジニア。長く使われる道具を、丁寧につくります。">
+  <meta name="description" content="Miyuki Aizawa のポートフォリオ。映像処理、決済、配信、検索、採用の Web サービスを開発してきたソフトウェアエンジニア。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,106 +14,56 @@
   <header class="site-header">
     <a class="brand" href="#top">M. Aizawa</a>
     <nav aria-label="ページ内">
-      <a href="#about">About</a>
-      <a href="#journey">Journey</a>
+      <a href="#work">Work</a>
       <a href="#tools">Tools</a>
-      <a href="#values">Values</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <p class="eyebrow">Engineer</p>
+      <p class="eyebrow">Software Engineer</p>
       <h1>Miyuki <em>Aizawa</em></h1>
-      <p class="lead">映像、決済、配信、検索。いろいろな仕組みをつくってきました。いまは、人の仕事を少し楽にする道具を、長く使えるかたちでつくっています。</p>
+      <p class="lead">映像処理、決済、配信、検索、採用の Web サービスを開発してきたソフトウェアエンジニア。現在は生成 AI を組み込んだ業務システムを手がけています。</p>
       <div class="hero-actions">
         <a class="button" href="https://github.com/mick-az">GitHub</a>
         <a class="link-arrow" href="#contact">Contact</a>
       </div>
     </section>
 
-    <section id="about" class="section">
+    <section id="work" class="section">
       <div class="section-head">
         <span class="num">01</span>
-        <h2>About</h2>
+        <h2>Work</h2>
       </div>
-      <div class="prose">
-        <p>はじまりは、画像や動画をきれいに見せるアルゴリズムでした。そこから、課金や決済、たくさんの人に同時に届ける配信、探しものを助ける検索、採用の現場を支えるサービスへと、つくるものを広げてきました。</p>
-        <p>大事にしているのは、できあがった瞬間ではなく、使われ続ける時間です。目に見えないところまで、丁寧に。</p>
-      </div>
-    </section>
-
-    <section id="journey" class="section">
-      <div class="section-head">
-        <span class="num">02</span>
-        <h2>Journey</h2>
-      </div>
-      <ul class="cards">
-        <li>
-          <h3>映像をきれいに</h3>
-          <p>ぼやけた映像を鮮明にしたり、動くものを見つけたりする仕組み。製品に入り、特許にもなりました。</p>
-        </li>
-        <li>
-          <h3>お金のやりとり</h3>
-          <p>配信サービスの課金と決済。金額や権限を間違えないための設計と、確かめ方を学びました。</p>
-        </li>
-        <li>
-          <h3>たくさんの人に同時に</h3>
-          <p>配信の裏側。混み合っても、どこかが壊れても、止まりにくい構成を組みました。</p>
-        </li>
-        <li>
-          <h3>探しものを助ける</h3>
-          <p>検索の仕組み。情報の分け方、探し方、答え合わせの考え方は、いまも土台になっています。</p>
-        </li>
-        <li>
-          <h3>人と仕事が出会う場</h3>
-          <p>求人と採用のサービス。人が働く場を選ぶ場面を、裏側から支えました。</p>
-        </li>
-        <li>
-          <h3>AI と組む</h3>
-          <p>生成 AI や AI エージェントを、任せる部分と人が確かめる部分に分けて、日々の仕事に組み込んでいます。</p>
-        </li>
-      </ul>
+      <dl class="work">
+        <div><dt>映像処理</dt><dd>鮮明化と動体検知のアルゴリズム開発。製品化、特許取得。</dd></div>
+        <div><dt>課金・決済</dt><dd>配信サービスの課金・決済機能の設計と実装。</dd></div>
+        <div><dt>配信基盤</dt><dd>大規模な同時配信を支えるバックエンド。</dd></div>
+        <div><dt>検索</dt><dd>Web サービスの検索基盤。</dd></div>
+        <div><dt>採用</dt><dd>求人・採用領域の Web サービス。</dd></div>
+        <div><dt>AI</dt><dd>生成 AI と AI エージェントの業務システムへの組み込み。</dd></div>
+      </dl>
     </section>
 
     <section id="tools" class="section">
       <div class="section-head">
-        <span class="num">03</span>
+        <span class="num">02</span>
         <h2>Tools</h2>
       </div>
-      <div class="prose">
-        <p>ふだん使う言語は C、C++、Go、Python、Rust、TypeScript。Web とスマートフォン、Windows から組み込みの Linux まで、動く場所は選びません。</p>
-        <p>画像には OpenCV、公開には Cloudflare Workers。生成 AI は、道具として必要なときに手に取ります。</p>
-      </div>
-    </section>
-
-    <section id="values" class="section">
-      <div class="section-head">
-        <span class="num">04</span>
-        <h2>Values</h2>
-      </div>
-      <ul class="credo">
-        <li>
-          <h3>細部に責任を持つ</h3>
-          <p>画面には出てこない設計や、コードの読みやすさまで。見えないところも、自分の仕事です。</p>
-        </li>
-        <li>
-          <h3>長く使われることを基準に</h3>
-          <p>渡した日ではなく、使い続けてもらう日々を基準に考えます。</p>
-        </li>
-      </ul>
+      <dl class="work">
+        <div><dt>言語</dt><dd>C、C++、Go、Python、Rust、TypeScript</dd></div>
+        <div><dt>環境</dt><dd>Web、iOS、Android、Windows、組み込み Linux</dd></div>
+        <div><dt>ほか</dt><dd>OpenCV、Cloudflare Workers</dd></div>
+      </dl>
     </section>
 
     <section id="contact" class="section">
       <div class="section-head">
-        <span class="num">05</span>
+        <span class="num">03</span>
         <h2>Contact</h2>
       </div>
-      <div class="prose">
-        <p>お気軽にどうぞ。</p>
-      </div>
-      <dl class="accounts">
+      <dl class="work">
         <div><dt>GitHub</dt><dd><a href="https://github.com/mick-az">mick-az</a></dd></div>
         <div><dt>X</dt><dd><a href="https://x.com/mickaz_jp">@mickaz_jp</a></dd></div>
         <div><dt>Discord</dt><dd>mickaz_jp</dd></div>
